@@ -5,3 +5,4 @@ const AsyncHandler = (handledFunction)=>{
         })
     }
 }
+export {AsyncHandler}
