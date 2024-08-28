@@ -14,8 +14,9 @@ app.use(cookieParser());
 
 //routing starts here 
 
-
 app.get("/", (req,res)=>{
     res.send("it's working fine ");
 })
+
+//app is exported
 export {app}
