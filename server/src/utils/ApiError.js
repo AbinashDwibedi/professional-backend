@@ -11,7 +11,7 @@ class ApiError extends Error {
         }
         else{
             console.log("problem caused in api error")
-            Error.captureStackTrade(this, this.stack);
+            Error.captureStackTrace(this, this.stack);
             
         }
     }
